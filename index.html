@@ -42,10 +42,16 @@
     </div>
 
     <!-- Navigation -->
+    <!-- Navigation -->
     <nav>
       <div class="container">
         <div class="logo">RZZ</div>
-        <ul>
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -61,9 +67,10 @@
       <div class="hero-content">
         <div class="hero-text">
           <h1>Rachen Ziyad Zechran</h1>
+          <p class="hero-subtitle">Cyber Enthusiast & Web Developer</p>
           <h2>
             Undergraduate Computer Science Student at Universitas Multimedia
-            Nusantara Student
+            Nusantara
           </h2>
           <div class="hero-buttons">
             <a href="#contact" class="btn btn-primary">Get In Touch</a>
@@ -308,7 +315,131 @@
             </div>
           </div>
         </div>
+        <!-- BTaskee App Design -->
+        <div class="project-card reveal" data-tilt>
+          <div class="project-header">
+            <div class="project-icon"><i class="fab fa-figma"></i></div>
+            <div class="project-tags">
+              <span class="tag">Figma</span>
+              <span class="tag">UI/UX</span>
+              <span class="tag">Mobile Design</span>
+            </div>
+          </div>
+          <h3>BTaskee — Cleaning Service App</h3>
+          <p class="project-subtitle">
+            Mobile Application Design for On-Demand Cleaning Services
+          </p>
+          <p class="project-description">
+            Designed a comprehensive mobile application interface for BTaskee,
+            an on-demand cleaning service platform. Created user-friendly flows
+            for booking, scheduling, and managing cleaning services with focus
+            on accessibility and modern design principles. The design includes
+            customer and service provider interfaces with seamless booking
+            experience and real-time tracking features.
+          </p>
+          <div class="project-features">
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Complete user journey mapping</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Booking & scheduling interface</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Service provider dashboard</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Modern & intuitive UI design</span>
+            </div>
+          </div>
+        </div>
 
+        <!-- Water Quality Detection ML -->
+        <div class="project-card reveal" data-tilt>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-brain"></i></div>
+            <div class="project-tags">
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Python</span>
+              <span class="tag">TensorFlow</span>
+            </div>
+          </div>
+          <h3>Water Quality Detection System</h3>
+          <p class="project-subtitle">
+            AI-Powered Water Quality Analysis using Machine Learning
+          </p>
+          <p class="project-description">
+            Developed a machine learning model to detect and classify water
+            quality based on various parameters. The system analyzes multiple
+            water quality indicators including pH levels, turbidity, and
+            chemical composition to determine water potability. Implemented
+            using Python with TensorFlow/Keras for model training and achieved
+            high accuracy in quality prediction.
+          </p>
+          <div class="project-features">
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Multi-parameter analysis</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Classification & prediction model</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Data preprocessing & training</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Accuracy optimization</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unity Game Development -->
+        <div class="project-card reveal" data-tilt>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-gamepad"></i></div>
+            <div class="project-tags">
+              <span class="tag">Unity</span>
+              <span class="tag">C#</span>
+              <span class="tag">Game Dev</span>
+            </div>
+          </div>
+          <h3>Unity Game Development Project</h3>
+          <p class="project-subtitle">
+            Interactive Game Built with Unity Engine
+          </p>
+          <p class="project-description">
+            Created an interactive game using Unity Engine and C# scripting.
+            Implemented core game mechanics including player movement, collision
+            detection, scoring system, and interactive UI elements. The project
+            demonstrates understanding of game development principles, object-
+            oriented programming, and Unity's physics engine. Features include
+            multiple levels, power-ups, and engaging gameplay mechanics.
+          </p>
+          <div class="project-features">
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Core game mechanics & physics</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Player controls & interactions</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Level design & progression</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>UI/UX & scoring system</span>
+            </div>
+          </div>
+        </div>
         <!-- ADT Competition -->
         <div class="project-card reveal" data-tilt>
           <div class="project-header">
@@ -568,6 +699,7 @@
         </div>
 
         <!-- Licenses & Certifications -->
+        <!-- Licenses & Certifications -->
         <div class="skills-column">
           <div class="skills-header">
             <h2>Licenses & Certifications</h2>
@@ -597,7 +729,7 @@
                 <p class="cert-issuer">Cisco Networking Academy • Oct 2025</p>
               </div>
             </div>
-            <!-- ✅ Added New Certification -->
+
             <div class="certification-item">
               <div class="cert-icon-wrapper">
                 <i class="fas fa-network-wired"></i>
@@ -607,6 +739,17 @@
                 <p class="cert-issuer">Cisco Networking Academy • Nov 2025</p>
               </div>
             </div>
+
+            <div class="certification-item">
+              <div class="cert-icon-wrapper">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div class="cert-content">
+                <h3>Website</h3>
+                <p class="cert-issuer">Maxima • Aug 2025</p>
+              </div>
+            </div>
+
             <div class="certification-item">
               <div class="cert-icon-wrapper">
                 <i class="fas fa-trophy"></i>
